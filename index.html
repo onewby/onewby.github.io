@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Oliver Newby</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="particles.min.js"></script>
+    <script>
+        particlesJS.load('header', 'particles.json', function() {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
+</head>
+
+<svg>
+    <filter id="blur">
+        <feGaussianBlur stdDeviation="5"></feGaussianBlur>
+    </filter>
+</svg>
+
+<body>
+    <div id="header" class="fullwidth"></div>
+    <div id="logo">Oliver Newby</div>
+    <div id="page"></div>
+</body>
+
+</html>
