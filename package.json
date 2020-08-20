@@ -1,0 +1,22 @@
+{
+  "name": "onewby",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onewby/onewby.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onewby/onewby.github.io/issues"
+  },
+  "homepage": "https://github.com/onewby/onewby.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
+}
