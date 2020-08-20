@@ -1,0 +1,42 @@
+$font-family-base: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.on-container {
+  background-size: cover !important;
+  padding: 8em 0;
+}
+
+.jumbotron {
+  background: white;
+}
+
+.social {
+  padding: 0.5em;
+  border-radius: 1em;
+  margin-right: 0.25em;
+  color: white;
+}
+
+#about {
+  background: url('https://live.staticflickr.com/7532/16146976702_4c82d686d3_k_d.jpg') left;
+}
+
+#mp {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/British_Houses_of_Parliament.jpg/1280px-British_Houses_of_Parliament.jpg') center;
+}
+
+#contact {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/York_Minster_Evening_%287177963603%29.jpg/1280px-York_Minster_Evening_%287177963603%29.jpg') center;
+}
+
+#on-footer {
+  padding: 1rem 0;
+  text-align: center;
+  font-size: small;
+  color: white;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
