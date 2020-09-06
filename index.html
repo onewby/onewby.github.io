@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Oliver Newby</title>
 
+    <!-- Social information with shameless advertising -->
     <!-- Search Engine -->
     <meta name="description" content="Student and developer - creator of the My Parliament app">
     <meta name="image" content="https://onewby.me/apple-touch-icon.png">
@@ -32,6 +33,7 @@
     <link href="scss/custom.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3834b9b581.js" crossorigin="anonymous"></script>
 
+    <!-- Favicon and pinned icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -43,10 +45,11 @@
 </head>
 
 <body data-spy="scroll" data-target="#primary-nav" data-offset="50">
+
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" id="primary-nav">
         <div class="container-lg">
             <a class="navbar-brand" href="#">
-                <img src="img/logo.png" height="30" alt="ONewby logo">
+                <img src="img/logo.svg" height="30" alt="ONewby logo" onerror="this.onerror=null; this.src='logo.png'">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -66,33 +69,74 @@
             </div>
         </div>
     </nav>
+
     <div class="container-fluid bg-light on-container" id="about">
         <div class="jumbotron container-lg">
             <h1 class="display-4">Hey there!</h1>
-            <p class="lead">I'm a student and developer from the United Kingdom. I'm about to publish an app, My Parliament, which allows users to receive push notifications about members' activities and the progress of bills.</p>
+            <p class="lead">I'm a student and developer from the United Kingdom. I've just published an app, My Parliament, which allows users to receive push notifications about members' activities and the progress of bills.</p>
             <hr class="my-4">
             <p>In the past, I have also produced game plugins and created a website for a local organisation. I have the most experience with Flutter, Java, HTML, and CSS - although I also use Python, PHP and JavaScript in projects.</p>
-            <a class="btn btn-primary btn-lg" href="#contact" role="button">Want to chat?</a>
+            <a class="btn btn-primary btn-lg" href="#contact" role="button">Fancy a chat?</a>
         </div>
     </div>
+
     <div class="container-fluid bg-secondary on-container" id="mp">
         <div class="jumbotron container-lg">
             <div class="row">
-                <div class="col-md-auto">
-                    <img src="img/mp_icon.png" style="height: 67px; width: 67px; border-radius: 67px;" alt="My Parliament icon">
-                </div>
+                <!-- BEGIN app info -->
                 <div class="col">
-                    <h1 class="display-4" style="font-weight: 800; color: #333;">My Parliament</h1>
+                    <div class="row">
+                        <div class="col-md-auto">
+                            <img src="img/mp_icon.png" style="height: 67px; width: 67px; border-radius: 67px;" alt="My Parliament icon">
+                        </div>
+                        <div class="col">
+                            <h1 class="display-4" style="font-weight: 800; color: #333;">My Parliament</h1>
+                        </div>
+                    </div>
+                    <p class="lead">My Parliament enables users to keep a close eye on their democracy by allowing them to receive push notifications about members' activities and the progress of bills within the UK Parliament.</p>
+                    <hr class="my-4">
+                    <ul>
+                        <li>Get notified when an MP or Lord votes or contributes to Parliament.</li>
+                        <li>Find out about their parliamentary history and contact information, both in the House of Commons and House of Lords.</li>
+                        <li>Discover what members have voted for, spoke about in debates and advocated for in early day motions.</li>
+                        <li>Track the progress of bills and get notified when they advance.</li>
+                        <li>Find your local MP from your current location.</li>
+                        <li>Bookmark members and bills to your dashboard for easy access.</li>
+                        <li>Is white too bright? Enable dark mode.</li>
+                    </ul>
+                    <p>Find your local MP, learn about their past record and keep track of what they are doing for you. Available now on Google Play!</p>
+                    <a href='https://play.google.com/store/apps/details?id=me.onewby.myparliament&utm_source=website&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank"><img height="72em" alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/static/images/badges/en_badge_web_generic.png'/></a>
+                </div>
+                <!-- END app info, BEGIN carousel -->
+                <div class="col-lg-3 align-self-center" id="mp-row-imgs">
+                    <div id="mp-carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Don't repeat yourself, they said... -->
+                            <div class="carousel-item active">
+                                <img src="img/mp-carousel/voting.png" class="d-block w-100" alt="Voting record for an MP">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/mp-carousel/notifs.png" class="d-block w-100" alt="Panel of toggles for enabling notifications">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/mp-carousel/bills.png" class="d-block w-100" alt="Information about the progress of the 'Coronavirus Enquiry' bill">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/mp-carousel/timeline.png" class="d-block w-100" alt="Timeline of an MP's Parliamentary history">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/mp-carousel/dark.png" class="d-block w-100" alt="An MP's question to the government, with the app in dark mode">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/mp-carousel/search.png" class="d-block w-100" alt="Search menu">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <p class="lead">My Parliament enables users to keep a close eye on their democracy by allowing them to receive push notifications about members' activities and the progress of bills within the UK Parliament.</p>
-            <hr class="my-4">
-            <p>Find your local MP, learn about their past record and keep track of what they are doing for you. Coming soon!</p>
-<!--
-            <a href='http://play.google.com/store/?utm_source=website&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img height="72px" alt='Get it on Google Play' src='https://play.google.com/intl/en_gb/badges/static/images/badges/en_badge_web_generic.png'/></a>
--->
         </div>
     </div>
+
     <div class="container-fluid bg-light on-container" id="contact">
         <div class="jumbotron container-lg">
             <h1 class="display-4">Fancy a chat?</h1>
@@ -101,13 +145,12 @@
             <p style="margin-bottom: 0.5em;"><img src="img/mp_icon.png" alt="My Parliament icon" style="border-radius: 1em;height: 2em;width: 2em;margin-right: 0.25em;"> <b>My Parliament:</b> <a href="mailto:mp@onewby.me">mp@onewby.me</a></p>
         </div>
     </div>
+
 </body>
 <footer class="bg-secondary">
     <div class="container-lg" id="on-footer">
-        <img src="img/logo.png" height="30" alt="Logo" style="margin-bottom: 1rem;"><br/>
-<!--
+        <img src="img/logo.svg" height="30" alt="Logo" style="margin-bottom: 1rem;" onerror="this.onerror=null; this.src='logo.png'"><br/>
         <span>Google Play and the Google Play logo are trademarks of Google LLC.</span><br/>
--->
         <span>
             <a href="https://www.flickr.com/photos/95808994@N06/16146976702" class="text-white-50">"Winter Whitby"</a> by Mark Minas,
             <a href="https://www.flickr.com/photos/97044050@N00/2706292588/" class="text-white-50">"British Houses of Parliament"</a> by Maurice, and

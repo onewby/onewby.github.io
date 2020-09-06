@@ -8,10 +8,6 @@ html {
   padding: 8em 0;
 }
 
-.jumbotron {
-  background: white;
-}
-
 .social {
   padding: 0.5em;
   border-radius: 1em;
@@ -38,6 +34,11 @@ html {
   color: white;
 }
 
+@media (max-width: 991px) {
+  #mp-row-imgs {
+    display: none;
+  }
+}
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
