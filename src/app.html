@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%; scroll-behavior: smooth;">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=2">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=2">
+		<link rel="manifest" href="/site.webmanifest?v=2">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg?v=2" color="#1e313b">
+		<link rel="shortcut icon" href="/favicon.ico?v=2">
+		<meta name="apple-mobile-web-app-title" content="onewby.me">
+		<meta name="application-name" content="onewby.me">
+		<meta name="msapplication-TileColor" content="#1e313b">
+		<meta name="msapplication-TileImage" content="/mstile-144x144.png?v=2">
+		<meta name="theme-color" content="#1e313b">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300..800&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width" />
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover" class="h-full">
+		<div style="display: contents;">%sveltekit.body%</div>
+	</body>
+	<script>
+		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
+		
+				document.querySelector(this.getAttribute('href')).scrollIntoView({
+					behavior: 'smooth'
+				});
+			});
+		});
+	</script>
+</html>

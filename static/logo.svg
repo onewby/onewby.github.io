@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 442.951 225.015" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<style>
+    path {
+        stroke-dasharray: 1032;
+        stroke-dashoffset: 1032;
+        animation: dash ease-in-out 3s forwards;
+    }
+
+    @keyframes dash {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+</style>
+<clipPath id="ArtboardFrame">
+<rect height="225.015" width="442.951" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer-1">
+<path d="M211.678 141.205C198.724 185.64 161.96 217.259 112.07 217.228C50.9907 217.191 7.49629 165.844 8.37198 113.585C9.24677 61.3789 45.8388 8.45143 114.26 8.45888C234.576 8.47197 248.301 213.941 337.646 213.662C356.52 213.603 434.184 207.833 433.647 9.31274" fill="none" opacity="1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+</g>
+</svg>
