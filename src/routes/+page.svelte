@@ -60,9 +60,9 @@
                 </slot>
             </Section>
             <Section title="Wreardle" imgSrc="wreardle.png" imgAlt="Wreardle website ready to play the first 2 seconds of a song">
-                <p>Wreardle is a fun Heardle clone for guessing pro wrestling theme tunes built using SvelteKit and the SoundCloud widget API.</p>
+                <p>Wreardle was a fun Heardle clone for guessing pro wrestling theme tunes built using SvelteKit and the SoundCloud widget API. Due to SoundCloud widget changes, it no longer works.</p>
                 <slot slot="button">
-                    <a class="btn" href="https://wreardle.onewby.me" target="_blank" rel="noopener noreferrer">Give it a go</a>
+                    <a class="btn line-through" href="https://wreardle.onewby.me" target="_blank" rel="noopener noreferrer">Give it a go</a>
                 </slot>
             </Section>
             <Section title="My Parliament" imgSrc="mp.png" imgAlt="Wreardle website ready to play the first 2 seconds of a song">
